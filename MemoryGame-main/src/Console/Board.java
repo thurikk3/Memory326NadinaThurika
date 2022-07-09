@@ -104,11 +104,9 @@ public class Board extends ConsoleGame {
     public static int getColumnInput(String value) throws NumberFormatException {
         int column = Integer.parseInt(value);
         if (column > 6|| column < 1||!sc.hasNextInt()) {
-            System.err.println("wrong input");
             System.out.println("gebe erneuert ein: ");
             return getColumnInput(String.valueOf(sc.nextInt()));
         }else if(!sc.hasNextInt()){
-            System.out.println("SAD");
         }
         return column;
     }
@@ -123,7 +121,6 @@ public class Board extends ConsoleGame {
     public static int getRowInput(String value) {
         int row = Integer.parseInt(value);
         if (row > 6|| row < 1||!sc.hasNextInt()) {
-            System.err.println("wrong input");
             System.out.println("gebe erneuert ein: ");
             return getRowInput(String.valueOf(sc.nextInt()));
         }
