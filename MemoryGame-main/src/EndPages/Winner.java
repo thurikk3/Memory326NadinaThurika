@@ -41,7 +41,7 @@ public class Winner extends JFrame {
         setLayout(new BorderLayout());
 
 
-        titel = new JLabel(name + " du hast gewonnen :)");
+        titel = new JLabel(name + " hat das Spiel gewonnen :)");
         titel.setFont(h1Font);
         titel.setForeground(darkblue);
         titel.setHorizontalAlignment(JLabel.CENTER);

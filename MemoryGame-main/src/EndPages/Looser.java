@@ -39,7 +39,7 @@ public class Looser extends JFrame {
         setSize(800, 700);
         setLayout(new BorderLayout());
 
-        titel = new JLabel(name + " du hast verloren :(");
+        titel = new JLabel(name + " du hast das Spiel leider verloren :(");
         titel.setFont(h1Font);
         titel.setForeground(darkblue);
         titel.setHorizontalAlignment(JLabel.CENTER);
